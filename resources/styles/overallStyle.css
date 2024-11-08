@@ -1,0 +1,37 @@
+@font-face {
+    font-family: Lunchtime Doubly So Regular;
+    src: url("../font/lunchds.ttf");
+}
+
+#background {
+    -fx-background-color: black;
+}
+
+#title {
+    -fx-text-fill: #96BAFF;
+    -fx-font-size: 26px;
+    -fx-font-family: "Lunchtime Doubly So Regular";
+    -fx-alignment: center;
+}
+
+.label {
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-font-family: "Lunchtime Doubly So Regular";
+    -fx-alignment: center;
+}
+
+.button {
+    -fx-font-family: "Lunchtime Doubly So Regular";
+    -fx-font-size: 20px;
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.button:hover {
+    -fx-text-fill: grey;
+}
+
+#inGameScoreLabel {
+    -fx-font-size: 15px;
+}

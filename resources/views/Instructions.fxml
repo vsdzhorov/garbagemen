@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="background" prefHeight="750.0" prefWidth="650" stylesheets="@../styles/overallStyle.css" xmlns="http://javafx.com/javafx/8.0.181" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.InstructionViewController">
+    <VBox fx:id="container" stylesheets="@../styles/WelcomeViewStyle.css" layoutX="81.0" layoutY="50.0" prefHeight="300.0" prefWidth="238.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="81.0" AnchorPane.rightAnchor="81.0" AnchorPane.topAnchor="50.0">
+        <Label fx:id="title" stylesheets="@../styles/overallStyle.css" layoutX="89.0" layoutY="35.0" text="Instructions" AnchorPane.topAnchor="35.0" />
+        <Label stylesheets="@../styles/overallStyle.css" layoutX="89.0" layoutY="35.0" text="W KEY - S KEY: UP - DOWN" AnchorPane.topAnchor="35.0" />
+        <Label stylesheets="@../styles/overallStyle.css" layoutX="89.0" layoutY="35.0" text="A KEY - D KEY: LEFT - RIGHT" AnchorPane.topAnchor="35.0" />
+        <Label stylesheets="@../styles/overallStyle.css" layoutX="89.0" layoutY="35.0" text="C KEY - F KEY: ACCELERATE - SLOW DOWN" AnchorPane.topAnchor="35.0" />
+        <Label stylesheets="@../styles/overallStyle.css" layoutX="89.0" layoutY="35.0" text="SPACE KEY: FIRE" AnchorPane.topAnchor="35.0" />
+        <Button fx:id="backBtn" layoutX="147.0" layoutY="296.0" mnemonicParsing="false" onAction="#back" text="Back" AnchorPane.bottomAnchor="47.0" />
+    </VBox>
+</AnchorPane>
+
+
